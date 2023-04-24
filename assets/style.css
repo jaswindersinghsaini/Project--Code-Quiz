@@ -1,0 +1,113 @@
+#head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+#head h1{
+  color: Purple; 
+  align-self: center;
+  
+}
+
+#timer {
+
+    align-self: end;
+    padding: 0px;
+    margin-top: -37px;
+    
+}
+
+.initialInst {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 16%;
+
+}
+
+
+#instructions {
+    align-self: center;
+}
+
+#startBtn{
+    background-color: pink;
+    align-self: center;
+ 
+}
+
+
+#forQuestions {
+    flex-direction: column;
+    border: 2px solid red;
+    width: 800px;
+    height:300px;
+    margin: auto;
+    display: none;
+
+}
+
+.listBtn1, .listBtn2, .listBtn3, .listBtn4 {
+    padding: 10px;
+    width: auto;
+    margin-top: 10px;
+    background-color: rgb(134, 73, 73);
+}
+
+hr {
+width:100%;
+margin-top: 10px;
+}
+
+.quiz-finish{
+    display:none;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.high-scores{
+    width: 25%;
+    display: block;
+    background-color: rgb(135, 209, 222);
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+
+}
+.high-scores li {
+    padding: 5px; 
+    margin: 5px;
+}
+
+.returnBtn{
+    background-color: rgb(151, 169, 226);
+    margin-bottom: 10px;
+    border-radius: 5px;    
+}
+.returnBtn:hover{
+    color: white;
+    background-color: rgb(185, 105, 185);
+}
+
+.clearBtn{
+    color: rgb(121, 29, 207);
+    border-radius: 10px;
+    background-color: rgb(209, 206, 206);
+}
+
+.clearBtn:hover{
+    background-color: brown;
+    color: white;
+}

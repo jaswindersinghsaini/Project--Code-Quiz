@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="head">
+        <h1> Quizzzz </h1>
+
+        <p id="timer">  </p>
+    </header>
+    <section class="initialInst">
+        <p id="instructions"> </p>
+        <button type="submit" id="startBtn"> Start Quiz</button>
+
+    </section>
+    <section id="forQuestions">
+        <h2 id = "questions"> </h2>
+        <ol id = "answers"> 
+             <li id="li1"><button class = "listBtn1"> </button> </li>  
+             <li id="li2"><button class = "listBtn2"> </button></li>  
+             <li id="li3"><button class = "listBtn3"> </button></li>  
+             <li id="li4"><button class = "listBtn4"> </button></li>  
+        </ol>
+        <hr>
+        <div id="answerReflect"> </div>
+    </section>
+    
+
+    <section class="quiz-finish">
+        <h3> Quiz Finished</h3>
+        <p> Your Score <span id="final-score"></span> </p>
+        <div>
+            <form id="form">
+            <label for=""> Enter initials:</label>
+            <input type="text" placeholder="Enter Initials" id="user-initials">
+            <button id="scoreBtn" type="submit"> Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+
+
+<script src="./assets/script.js"></script>
+
+    
+</body>
+</html>
