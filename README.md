@@ -14,7 +14,7 @@ Simply click on the link below and you will be taken directly to the Quiz page a
 
 ### Link: 
 
-
+https://jaswindersinghsaini.github.io/Project--Code-Quiz/
 
 
 ### Image: 
